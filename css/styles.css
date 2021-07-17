@@ -31,7 +31,7 @@ body,html{
     cursor: pointer;
     transition-duration: 0.5s;
 }
-.sun-avatar:hover,.sun-cover:hover{
+.sun-avatar:hover{
     transform: scale(1.2);
 }
 .avatar{
