@@ -29,7 +29,7 @@ $(document).ready(function(){
             sidebar.width(0)
         }
     })
-    $("#close").on('click',function(){
+    $("#close1").on('click',function(){
         var sidebar = $("#sidebar")
         sidebar.width(0)
     })

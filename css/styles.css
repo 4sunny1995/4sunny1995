@@ -14,6 +14,8 @@ html {
   left: 0;
   overflow: hidden;
   transition-duration: 0.5s;
+  border-right: #F6F6F6 2px solid;
+  z-index: 1;
 }
 .sidebar-header{
   padding: 0.5rem;
@@ -30,7 +32,7 @@ html {
   background-color: white;
   position: relative;
 }
-#close{
+#close1{
   right: 0;
   position: absolute;
   margin-right: 0.5rem;
