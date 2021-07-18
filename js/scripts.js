@@ -18,4 +18,19 @@ $(document).ready(function(){
     $("#close").on('click',function() {
         $("#myModal").css('display','none')
     })
+    $("#menu").on('click',function(){
+        // $("#sidebar").width(280)
+        var sidebar = $("#sidebar")
+        console.log(sidebar.height())
+        if(sidebar.width()===0){
+            sidebar.width(300)
+        }
+        else{
+            sidebar.width(0)
+        }
+    })
+    $("#close").on('click',function(){
+        var sidebar = $("#sidebar")
+        sidebar.width(0)
+    })
 })
