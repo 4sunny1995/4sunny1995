@@ -178,15 +178,26 @@ html {
   background-color: rgba(0, 0, 0, 0.9);
   /* Black w/ opacity */
 }
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: gray;
+}
+.carousel-item>img{
+  height: 100%;
 
+}
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
   display: block;
   width: 100%;
   max-width: 768px;
+  max-height: 100%;
+  padding: 0.5rem;
+  object-fit: cover;
 }
-
+.max-w-none{
+  max-width: none;
+}
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
